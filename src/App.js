@@ -58,24 +58,10 @@ function App() {
   return (
     
     <div className="App">
- 
-    
-      <ThemeProvider theme={theme}>
-        
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <Grid titleBtn="KSA News" list="• Covid 19............" />
-          <Grid titleBtn="Upcoming Events" list="• Subcom Event........"/>
-        </div>
-        <div className={`${classes.grid} ${classes.littleSpace}`}>  
-          <Grid titleBtn="Job Board" list="• Saint Laurent Internship....."/>
-          <Grid titleBtn="KSA Market" list="Galaxy Buds............"/>
-        </div>
-
-        <div className= {classes.bigSpace}>
-          <Footer/>
-        </div>
-      </ThemeProvider>
+    <div className="content-wrap">
       <NavBar/>
+    </div>
+    <Footer/>
     </div>
   );
 }

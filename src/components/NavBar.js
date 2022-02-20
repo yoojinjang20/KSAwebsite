@@ -19,7 +19,7 @@ class NavBar extends React.Component{
                 </div>
                 <div className="menu-icon" id="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
-                    <i className={this.state.clicked ? 'nav-links': 'nav-links close'}></i>
+                    
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index)=>{
@@ -42,4 +42,3 @@ class NavBar extends React.Component{
 }
 
 export default NavBar;
-

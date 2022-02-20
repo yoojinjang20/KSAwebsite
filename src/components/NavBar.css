@@ -4,11 +4,12 @@
     position: fixed;
     inset: 0 0 0 80%;
     flex-direction: column;
-    background-color: rgba(30, 51, 109, 0.5);
+    background-color: rgba(11, 36, 104, 0.7);
     backdrop-filter: blur(0.5rem);
     display: flex;
     justify-content: left;
     align-items: right;
+    list-style: none;
     
 
 
@@ -32,7 +33,7 @@
 
 }
 .nav-links:hover{
-    background-color: rgba(73, 85, 196, 0.815);
+    background-color: rgba(158, 39, 23, 0.685);
     border-radius: 1px;
     transition: all 0.2s ease-out;
 }
