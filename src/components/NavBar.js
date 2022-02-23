@@ -10,10 +10,7 @@ function NavBar(){
     const [button, setButton] = useState(true);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(true);
-    const [style,setStyle ]=useState("cont");
-    const changeStyle = () => {
-        setStyle("cont2")
-    }
+
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
