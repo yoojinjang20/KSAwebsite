@@ -1,29 +1,40 @@
 .NavBarItems{
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     inset: 0 0 0 80%;
+    height: 100vh;
+}
+.nav-menu {
     flex-direction: column;
+    display: none;
+   
+  }
+.nav-menu.active{
     background-color: rgba(11, 36, 104, 0.9);
-    backdrop-filter: blur(0.5rem);
+    flex-direction: column;
     display: flex;
     justify-content: left;
     align-items: right;
-    list-style: none;
-    padding-top: 50px;
     font-weight:400;
-    
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    margin-right: 2rem;
+    height: 100vh;
 }
 
-
+.nav-item {
+    height: 70px;
+  }
 
 .nav-links {
     color:white;
     text-decoration: none;
     text-align: center;
     display: flex;
-    padding-top: 15px;
-    padding-bottom:15px;
+    padding-top: 20px;
+    padding-bottom:20px;
     padding-left:20px;
 
 }
@@ -32,29 +43,26 @@
     border-radius: 1px;
     transition: all 0.2s ease-out;
 }
-
-
 .nav-links-mobile{
     color:rgba(158, 39, 23, 0.979);
     text-decoration: none;
     text-align: right;
     display: flex;
-    padding-top: 15px;
-    padding-bottom:15px;
+    padding-top: 20px;
+    padding-bottom:20px;
     padding-left:20px;
     font-weight:600;
-   
 }
 .nav-links-mobile:hover{
     background-color:white;
     border-radius: 1px;
     transition: all 0.2s ease-out;
-    
 }
 
 .menu-icon{
     color:white;
     font-size: 25px;
-    position: fixed;
+    position: absolute;
     inset: 0 0 0 85%;
 }
+

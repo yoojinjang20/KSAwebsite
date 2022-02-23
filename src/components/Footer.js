@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { BottomNavigationAction} from '@material-ui/core'
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import EmailIcon from '@material-ui/icons/Email';
+import logo from './navbar-logo.png';
 
 
 function Footer() {
@@ -49,6 +46,7 @@ function Footer() {
                 </div>
 
             </div>
+        
         </div>
         
         
