@@ -11,7 +11,7 @@
    
   }
 .nav-menu.active{
-    background-color: rgba(11, 36, 104, 0.9);
+    background-color: rgba(3, 23, 78, 0.9);
     flex-direction: column;
     display: flex;
     justify-content: left;
